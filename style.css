@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* applies to all */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	background-image: linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -o-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -moz-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -webkit-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -ms-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-color: #73b9ff;
+	font-family: helvetica;
+	line-height: 20px;
+}
+
+#container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+li {
+	margin-left:20px;
+}
+
+.information {
+	margin: 0 0 0 15px;
+}
+
+.sectiontitle {
+	color: #204E8F;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 25px 0 15px 15px;
+}
+
+
+/* header */
+
+#header {
+	background-image: linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -o-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -moz-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -webkit-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -ms-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-color: #0c286e;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.25);
+	height: 80px;
+	width: 1100px;
+
+}
+
+#namebox {
+	border-radius-bottom: 10px;
+	float: left;
+	height: 120px;
+	width: 1100px;
+}
+
+#name {
+	text-align: center;
+}
+#name h1 {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 25px 0 0 0;
+	text-shadow: 0px -2px 0px black;
+}
+
+
+/* Goals/Qualifications */
+
+#goals {
+	background-color: #EFF7FF;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	float: left;
+	height: 90px;
+	margin:0px 0 40px 50px;
+	padding: 0px 15px 15px 15px;
+	width: 970px;
+}
+
+/* body */
+
+.column {
+	background-color: #EFF7FF;
+	border-radius: 7px;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.25);
+	height: 800px;
+	padding: 0 15px 0 0;
+	margin: 20px;
+	width: 470px;
+}
+
+.col1 {
+	float: left;
+	margin: 0 0 0 25px;
+}
+
+.col2 {
+	float: right;
+	margin: 0 25px 0 0;
+}
+
+ #main {
+ 	background-image: linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -o-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -moz-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -webkit-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	background-image: -ms-linear-gradient(bottom, #73B9FF 45%, #4B99FA 100%);
+	border-radius: 400px;
+ 	box-shadow: ;
+ 	float: left;
+ 	height: 900px;
+ 	width: 1100px;
+}
+
+.name {
+	font-weight: bold;
+
+
+
+}
+
+.title {
+	float: left;
+	margin-top: -12px;
+}
+
+.year {
+	float: right;
+	font-size: 12px;
+	color: #4B99FA;
+}
+
+.worktitle {
+	color: #4B99FA;
+	font-weight: bold;
+	font-size: 13px;
+	font-style: italic;
+}
+
+/* footer */
+
+#footer {
+	background-image: linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -o-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -moz-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -webkit-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	background-image: -ms-linear-gradient(bottom, #204E8F 36%, #3A6EAC 68%);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	bottom: 0px;
+	box-shadow: 0 5px 3px rgba(138, 138, 138, 0.5);
+	height: 80px;
+	position:fixed;
+	width: 1100px;
+}
+
+
+.footerimages {
+	float: left;
+	padding: 15px 0 0 15px;
+	line-height: 80px;
+}
+
+.footertext {
+	float: left;
+	padding: 15px 0 0 15px;
+	line-height: 50px;
+	color: white;
+}
+
+.footertext2 {
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 15px 185px 0 15px;
+	line-height: 50px;
+	color: white;
+}
+
+
